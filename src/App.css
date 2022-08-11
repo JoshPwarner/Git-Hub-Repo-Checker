@@ -1,60 +1,41 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-h1 {
+* {
+  box-sizing: border-box;
+}
+
+body {
   display: flex;
   justify-content: center;
-  color: #39304a;
+  text-align: center;
+  flex-direction: column;
+  background-color: #1b1b1b;
+  color: #c3c0c0;
+  font-family: "Poppins";
+}
 
+h1 {
   font-size: 3rem;
   font-weight: 700;
 }
 
-h2 {
-  display: flex;
-  justify-content: center;
-  color: #39304a;
+li {
+  list-style-type: none;
 }
 
-nav {
-  display: flex;
-  justify-content: center;
-}
 
-body {
-  background-color: #b0a990;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #202030;
-}
-
-nav a {
-  padding: 1rem;
+a {
   cursor: pointer;
-  color: #202030;
-  text-decoration: underline;
+  text-decoration: none;
+  color: inherit;
 }
 
-nav .active {
-  font-weight: bold;
-}
-form {
-  display: flex;
-  justify-content: center;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-}
-
-footer a {
-  cursor: pointer;
-  color: #202030;
+a:hover, a:focus {
   text-decoration: underline;
 }
 
 .show-repo {
   cursor: pointer;
-  color: #39304a;
   text-decoration: underline;
 }
 
@@ -68,28 +49,28 @@ footer a {
 input {
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid #d7d4c7;
-  background-color: #d7d4c7;
+  border: 1px solid transparent;
+  background-color: #585858;
 }
 
 input:active,
 input:hover {
-  border: 1px solid #39304a;
-  background-color: #d7d4c7;
+  border: 1px solid transparent;
+  background-color: #d3d3d3;
 }
 
 button {
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid #39304a;
-  background-color: #39304a;
-  color: #d7d4c7;
+  border: 1px solid transparent;
+  background-color: #585858;
+  color: #1b1b1b;
   margin-left: 5px;
 }
 
 button:active,
 button:hover {
-  border: 1px solid #39304a;
-  background-color: #d7d4c7;
-  color: #39304a;
+  border: 1px solid transparent;
+  background-color: #d3d3d3;
+  color: #585858;
 }
