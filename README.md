@@ -10,18 +10,18 @@ Then `npm run dev` to start application
 
 ### Bugs
 
-1. The Back button does not functions as required.
+1. Strange centering issue on the form for the home page.
 
 ### Future features
 
 An additional Page for User information.
 
+Add previews feature for repositories on click
+
 ### Wins & Challenges
 
-The Search form is functioning, and we are able fetch user information by their username.
+We have a fully functioning API call to the GitHub API that fetches User Repo information and displays it below
 
-Once the Username has been entered, we able to retrieve all of their repository in a order list format.
+As of right now we need to have the back button functioning.
 
-Then the user is able to click on any element within the list to retieve specific information regarding that particular repository.
-
-We are able to retieve the Repo_name, Fork_count and description and url from the GitHub Api.
+Collaborating as a 3 on a small project is difficult.
